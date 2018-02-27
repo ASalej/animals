@@ -1,0 +1,114 @@
+.white-bear {
+    background-color: var(--polar-bear-bg-color);
+}
+
+.white-bear > div {
+    position: absolute;
+}
+
+.bear-body {
+    height: 320px;
+    width: 250px;
+    border-radius: 150px 150px 0 0;
+    top: 80px;
+    left: calc(50% - 100px);
+    background: var(--polar-bear-color);
+}
+
+.left-bear-earn {
+    width: var(--bear-earn-size);
+    height: var(--bear-earn-size);
+    top: 80px;
+    left: 82px;
+    background: var(--polar-bear-color);
+    border-radius: 50%;
+}
+
+.right-bear-earn {
+    width: var(--bear-earn-size);
+    height: var(--bear-earn-size);
+    top: 80px;
+    left: 286px;
+    background: var(--polar-bear-color);
+    border-radius: 50%;
+}
+
+.left-bear-eye {
+    width: 15px;
+    height: 15px;
+    top: 152px;
+    left: 197px;
+    background: var(--bear-eyes-color);
+    border-radius: 50%;
+}
+
+.right-bear-eye {
+    width: 15px;
+    height: 15px;
+    top: 153px;
+    left: 248px;
+    background: var(--bear-eyes-color);
+    border-radius: 50%;
+}
+
+.bear-nose {
+    width: 80px;
+    height: 90px;
+    top: 176px;
+    left: 193px;
+    background: #ddebf9;
+    border-radius: 42px;
+}
+
+.bear-nose-point {
+    width: 35px;
+    height: 30px;
+    top: 183px;
+    left: 215px;
+    background: var(--bear-eyes-color);
+    border-radius: 132px;
+}
+
+.bear-paw {
+    width: 80px;
+    height: 200px;
+    border-radius: 50px 50px 0 0;
+    background: #ddebf9;
+    top: 200px;
+    left: 47px;
+}
+
+.bear-paw-round {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--polar-bear-color);
+}
+
+.bear-paw-round:nth-child(1) {
+    top: 24px;
+    left: 58px;
+}
+
+.bear-paw-round:nth-child(2) {
+    top: 11px;
+    left: 41px;
+}
+
+.bear-paw-round:nth-child(3) {
+    left: 24px;
+    top: 11px;
+}
+
+.bear-paw-round:nth-child(4) {
+    top: 24px;
+    left: 9px;
+}
+
+.bear-paw-round.large {
+    width: 40px;
+    height: 40px;
+    top: 28px;
+    left: 18px;
+}
