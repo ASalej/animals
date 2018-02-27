@@ -1,0 +1,94 @@
+.penguin {
+    background-color: #e8e481;
+}
+
+.penguin > div {
+    position: absolute;
+}
+
+.penguin-back {
+    width: 210px;
+    height: 300px;
+    border-radius: 90px 90px 0 0;
+    top: 100px;
+    left: calc(50% - 100px);
+    background: var(    --bear-eyes-color);
+}
+
+.penduin-body-left {
+    width: 150px;
+    height: 230px;
+    border-radius: 70px 70px 0 0;
+    top: 170px;
+    left: calc(50% - 70px);
+    background: #ffffff;
+}
+
+.penguin-beak {
+    border: 20px solid white;
+    border-top-color:  orange;
+    height: 0;
+    top: 230px;
+    left: calc(50% - 10px);
+}
+
+.left-penguin-eye {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    top: 140px;
+    left: 135px;
+    background: var(--polar-bear-color);
+}
+
+.right-penguin-eye {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    top: 140px;
+    left: 185px;
+    background: var(--polar-bear-color);
+}
+
+.left-penguin-eye-core {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(    --bear-eyes-color);
+    top: 195px;
+    left: 184px;
+}
+
+.right-penguin-eye-core {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(    --bear-eyes-color);
+    top: 195px;
+    left: 220px;
+}
+
+.left-wing {
+    width: 40px;
+    height: 155px;
+    border-radius: 50%;
+    background: #444444;
+    top: 238px;
+    left: 60px;
+    transform: rotate(20deg);
+}
+
+.right-wing {
+    width: 40px;
+    height: 155px;
+    border-radius: 50%;
+    background: #444444;
+    top: 238px;
+    left: 248px;
+    transform: rotate(20deg);
+}
+
+.penguin:hover .right-wing {
+    transform-origin: 43px -100px;
+    transform: rotate(-20deg);
+}
