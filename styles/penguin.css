@@ -54,7 +54,7 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: var(    --bear-eyes-color);
+    background-color: var(--bear-eyes-color);
     top: 195px;
     left: 184px;
 }
@@ -63,7 +63,7 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: var(    --bear-eyes-color);
+    background-color: var(--bear-eyes-color);
     top: 195px;
     left: 220px;
 }
@@ -84,11 +84,12 @@
     border-radius: 50%;
     background: #444444;
     top: 238px;
-    left: 248px;
-    transform: rotate(20deg);
+    left: 310px;
+    transform: rotate(160deg);
 }
 
 .penguin:hover .right-wing {
-    transform-origin: 43px -100px;
-    transform: rotate(-20deg);
+    transform: rotate(200deg);
+    left: 245px;
+    transition-duration: 1s;
 }
