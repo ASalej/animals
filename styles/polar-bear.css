@@ -112,3 +112,9 @@
     top: 28px;
     left: 18px;
 }
+
+.white-bear:hover .bear-paw {
+    height: 150px;
+    top: 250px;
+    transition-duration: 1s;
+}
