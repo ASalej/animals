@@ -1,0 +1,119 @@
+.seal {
+    background-color: #5cf3ce;
+}
+
+.seal > div {
+    position: absolute;
+}
+
+.seal-body {
+    width: 220px;
+    height: 200px;
+    border-radius: 100px 100px 30px 30px;
+    top: 130px;
+    left: calc(50% - 145px);
+    background: var(--polar-bear-color);
+}
+
+.left-seal-flipper {
+    width: 50px;
+    height: 77px;
+    border-radius: 30px;
+    top: 285px;
+    left: 35px;
+    transform: rotate(45deg);
+    background: var(--polar-bear-color);
+}
+
+.right-seal-flipper {
+    width: 50px;
+    height: 77px;
+    border-radius: 30px;
+    top: 285px;
+    left: 245px;
+    transform: rotate(135deg);
+    background: var(--polar-bear-color);
+}
+
+.left-seal-eye {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--bear-eyes-color);
+    top: 222px;
+    left: 181px;
+}
+
+.right-seal-eye {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--bear-eyes-color);
+    top: 222px;
+    left: 126px;
+}
+
+.seal-tail {
+    width: 156px;
+    height: 170px;
+    border-radius: 0 100px 55px 0;
+    left: 186px;
+    top: 123px;
+    background: #ddebf9;
+    transform: rotate(63deg);
+}
+
+.left-seal-tail {
+    width: 60px;
+    height: 45px;
+    top: 58px;
+    left: 250px;
+    background: var(--polar-bear-color);
+    border-radius: 0 30px;
+    transform: rotate(20deg);
+}
+
+.right-seal-tail {
+    width: 60px;
+    height: 45px;
+    top: 30px;
+    left: 260px;
+    top: 58px;
+    left: 293px;
+    background: var(--polar-bear-color);
+    border-radius: 30px 0;
+    transform: rotate(-20deg);
+}
+
+.left-seal-nose {
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    background: #ddebf9;
+    top: 250px;
+    left: 119px;
+}
+
+.right-seal-nose {
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    background: #ddebf9;
+    top: 250px;
+    left: 154px;
+}
+
+.seal-dark-nose {
+    width: 28px;
+    height: 23px;
+    top: 242px;
+    left: 147px;
+    background: var(--bear-eyes-color);
+    border-radius: 132px;
+}
+
+.seal:hover .right-seal-flipper {
+    transform: rotate(100deg);
+    transform-origin: 32px 34px;
+    transition-duration: 1s;
+}
